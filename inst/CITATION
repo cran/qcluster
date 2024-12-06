@@ -1,0 +1,38 @@
+citHeader("\nTo cite package 'rclust' in publications use:")
+
+year <- sub("-.*", "", meta$Date)
+note <- sprintf("R package version %s", meta$Version)
+
+
+bibentry(bibtype="Article",
+         title   = "Selecting the number of clusters, clustering models, and algorithms. {A} unifying approach based on the quadratic discriminant score",
+         author  = c(person(given="Luca", family="Coraggio"),
+                            person(given=c("Pietro"), family="Coretto")),
+         year    = "2023",
+         journal = "Journal of Multivariate Analysis",
+         volume  = 196,
+         number  = "105181",
+         pages   = "1-20",
+         doi     = "10.1016/j.jmva.2023.105181",
+         url     = "https://doi.org/10.1016/j.jmva.2023.105181",
+         textVersion = "Coraggio, Luca and Pietro Coretto (2023). Selecting the number of clusters, clustering models, and algorithms. A unifying approach based on the quadratic discriminant score. Journal of Multivariate Analysis, Vol. 196(105181), 1-20. url: https://doi.org/10.1016/j.jmva.2023.105181")
+
+
+
+bibentry(bibtype="Manual",
+         title   = "XYZ: Model Selection and Cluster Validation via Resampling",
+         author  = c(person(given="Luca", family="Coraggio"),
+                     person(given=c("Pietro"), family="Coretto")),
+         year    = year,
+         note    = note,
+         textVersion =
+         paste("Coraggio, Luca and Pietro Coretto (", year,").
+                XYZ: Model Selection and Cluster Validation via Resampling.",
+                note, "url: https://CRAN.R-project.org/package=rclust",
+                sep='')
+        )
+
+
+
+
+

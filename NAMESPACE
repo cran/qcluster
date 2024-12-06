@@ -1,0 +1,37 @@
+# Export objects in /src
+useDynLib(qcluster, .registration = TRUE, .fixes = "C_")
+
+
+## import all functions from the following pkgs
+import("stats", "graphics", "grDevices", "doParallel", "foreach", "iterators", "parallel")
+
+
+## selective imports from pkgs 
+importFrom("utils", "citHeader")
+importFrom("cluster", "pam")
+importFrom("methods", "is")
+
+
+## Export objects in /R
+export(gmix)
+export(qscore)
+export(bqs)
+export(bqs_rank)
+export(mbind)
+export(mset_gmix)
+export(mset_pam)
+export(mset_kmeans)
+export(mset_user)
+export(clust2params)
+export(plot_clustering)
+export(bqs_select)
+
+## Registering S3 methods
+S3method(print, mbcfit)
+S3method(plot, mbcfit)
+S3method(predict, mbcfit)
+S3method(print, bqs)
+S3method(plot, bqs)
+
+## ## exports every object that doesn't start with a dot
+## exportPattern("^[^\\.]")
