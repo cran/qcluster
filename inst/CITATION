@@ -20,14 +20,14 @@ bibentry(bibtype="Article",
 
 
 bibentry(bibtype="Manual",
-         title   = "XYZ: Model Selection and Cluster Validation via Resampling",
+         title   = "qcluster: Clustering via Quadratic Scoring",
          author  = c(person(given="Luca", family="Coraggio"),
                      person(given=c("Pietro"), family="Coretto")),
          year    = year,
          note    = note,
          textVersion =
          paste("Coraggio, Luca and Pietro Coretto (", year,").
-                XYZ: Model Selection and Cluster Validation via Resampling.",
+                qcluster: Clustering via Quadratic Scoring.",
                 note, "url: https://CRAN.R-project.org/package=rclust",
                 sep='')
         )

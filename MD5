@@ -1,6 +1,6 @@
-c9a520b7c12d1312ebd2f31c8e48a117 *DESCRIPTION
+d5d938d769a9d06403ff4f75322ecd46 *DESCRIPTION
 76b09cbccf3cb1ad158b52198f13e49c *NAMESPACE
-122aef76d66563b4d49f2d37abca29b0 *NEWS
+5c20dad41c8e5ddd1390a4aafcab1460 *NEWS
 0e17508cd61d589ae0c43f2fb805ffa7 *R/bqs.R
 5e324df6e177bef38185014d90bfdcba *R/bqs_implementation_.R
 7a423007419f1feff190d1c99b42d63c *R/bqs_rank.R
@@ -27,9 +27,9 @@ d4c8bbc931a0e2672cae932ce4fe783b *R/print_bqs.R
 3569d9929d4887ec31763cf20d19ee7a *R/print_mbcfit.R
 54cf4c580c3acd92c2e3aca24e1a47a0 *R/qscore.R
 ad35ddb2763859fdba4df7e3af73c962 *R/zzz.R
-ea124a494ad7922985532ad3b308e4d5 *build/partial.rdb
+1dda19015f0aa969acee990c150e3ac9 *build/partial.rdb
 c70670bdd1cee9deeccc8213b218f054 *data/banknote.rda
-f396d8761194d96e531bb94777ef3da7 *inst/CITATION
+ec7254fa6957eb6d43d32f83025722d3 *inst/CITATION
 8ce9119241e62579ffdc9f02afc97124 *man/banknote.Rd
 730c2f1599ea9ec760d88d49d969a873 *man/bqs.Rd
 44707c8185b22d4fb7676cf8dc37fe69 *man/bqs_rank.Rd
